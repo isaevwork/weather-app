@@ -1,0 +1,1 @@
+export function getRandomNumber(totalHits) {    return Math.floor(Math.random() * totalHits);}
