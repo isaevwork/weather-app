@@ -6,7 +6,7 @@ import {getRandomNumber} from "../features/getRandomNumber";
 
 
 const App = () => {
-    const [city, setCity] = React.useState<string>("");
+    const [city, setCity] = React.useState<string>("Moscow");
     const [weatherValue, setWeatherValue] = React.useState<string>("");
     const [imageUrl, setImageUrl] = React.useState<any>('');
     const [totalLength, setTotalLength] = React.useState<number>(0);
